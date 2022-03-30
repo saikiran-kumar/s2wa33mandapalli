@@ -6,7 +6,7 @@ var x=Math.random();
 
 router.get('/', function(req, res, next) {
   
-  res.send('User accesses are: '+Math.ceil(x));
+  res.send(`${Math.ceil(`x`)} is +Math.ceil(x)`);
 });
 
 module.exports = router;
