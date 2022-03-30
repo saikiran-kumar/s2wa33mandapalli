@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 
 /* GET users listing. */
-var x=Math.random();
+var x=Math.round(Math.random()*100)/100;
 
 router.get('/', function(req, res, next) {
   
